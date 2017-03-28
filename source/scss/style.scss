@@ -51,6 +51,7 @@ a {
 }
 
 input {
+  font-size: $font-base-size * 1.5;
   border: 1px solid #d4dada;
   box-sizing: border-box;
   outline: none;
@@ -81,6 +82,7 @@ input {
   &[type="text"]{
     font-family: $def-font-family;
     border-radius: $border-radius;
+
     padding:10px;
     border-color: $c1;
   }
@@ -92,6 +94,7 @@ input {
 }
 
 label{
+  font-size: $font-base-size * 1.5;
   &[for="radio1"]{
     color:$c3;
   }
@@ -107,6 +110,7 @@ label{
 }
 
 textarea{
+  font-size: $font-base-size * 1.5;
   font-family: $def-font-family;
   padding:10px;
   border-radius: $border-radius;
@@ -118,6 +122,7 @@ img{
 }
 
 figure {
+  font-size: $font-base-size;
   max-width: 500px;
   padding:10px;
   margin: 20px;
@@ -129,7 +134,8 @@ figure {
   }
 }
 
-table{
+table {
+  font-size: $font-base-size;
   border-collapse: collapse;
   padding:0;
   margin: 20px;
@@ -143,7 +149,5 @@ table{
   td{
     border:1px solid black;
     padding:10px;
-
   }
-
 }
